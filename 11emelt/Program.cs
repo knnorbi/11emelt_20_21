@@ -12,7 +12,7 @@ namespace _11emelt
         {
             Triangle h1 = new Triangle(1, 2, 3);
             h1.SetSides(2, -2, 2);
-            Console.WriteLine(h1.Editable());
+            Console.WriteLine(h1.IsValid());
             Console.WriteLine(h1.Perimeter());
             Console.ReadLine();
         }

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D7D39593-5E88-44E6-9C46-CF26FED73A00}</ProjectGuid>
+    <ProjectGuid>{730D009F-1AFA-46C7-AF78-D7C2807633B8}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_11emelt</RootNamespace>
-    <AssemblyName>11emelt</AssemblyName>
+    <RootNamespace>OOP_orokles</RootNamespace>
+    <AssemblyName>OOP_orokles</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,7 +45,9 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Triangle.cs" />
+    <Compile Include="SchoolPerson.cs" />
+    <Compile Include="Student.cs" />
+    <Compile Include="Teacher.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
